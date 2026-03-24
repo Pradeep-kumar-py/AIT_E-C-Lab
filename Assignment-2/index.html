@@ -3,9 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lab Assignment 2 - Product Listing and Search</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Source+Serif+4:opsz,wght@8..60,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>hii</div>
+    <div class="page-bg"></div>
+    <main class="catalog-app">
+        <header class="hero">
+            <p class="kicker">Topic: Technology Backbone of E-Commerce</p>
+            <h1>Dynamic Product Catalog</h1>
+            <p class="subtitle">Search and filter products in real time using JavaScript.</p>
+        </header>
+
+        <section class="control-panel" aria-label="Search and filter products">
+            <div class="field field-wide">
+                <label for="searchInput">Search Product</label>
+                <input id="searchInput" type="search" placeholder="Try: camera, earbuds, smart" autocomplete="off">
+            </div>
+
+            <div class="field">
+                <label for="categorySelect">Category</label>
+                <select id="categorySelect">
+                    <option value="">All Categories</option>
+                </select>
+            </div>
+
+            <div class="field">
+                <label for="minPrice">Min Price (Rs)</label>
+                <input id="minPrice" type="number" min="0" placeholder="0">
+            </div>
+
+            <div class="field">
+                <label for="maxPrice">Max Price (Rs)</label>
+                <input id="maxPrice" type="number" min="0" placeholder="20000">
+            </div>
+
+            <div class="field">
+                <label for="sortSelect">Sort By</label>
+                <select id="sortSelect">
+                    <option value="featured">Featured</option>
+                    <option value="price-asc">Price: Low to High</option>
+                    <option value="price-desc">Price: High to Low</option>
+                    <option value="rating-desc">Top Rated</option>
+                    <option value="name-asc">Name: A to Z</option>
+                </select>
+            </div>
+
+            <div class="field stock-field">
+                <label for="stockOnly">In Stock Only</label>
+                <input id="stockOnly" type="checkbox">
+            </div>
+
+            <div class="field search-action-field">
+                <button id="searchBtn" type="button">Search Products</button>
+            </div>
+
+            <div class="field reset-field">
+                <button id="resetBtn" type="button">Reset Filters</button>
+            </div>
+        </section>
+
+        <section class="results-head" aria-live="polite">
+            <h2>Product List</h2>
+            <p id="resultsCount"></p>
+        </section>
+
+        <section id="productGrid" class="product-grid" aria-label="Products"></section>
+        <p id="emptyState" class="empty-state" hidden>No products found. Try changing your search or filters.</p>
+    </main>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
