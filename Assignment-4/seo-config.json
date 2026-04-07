@@ -1,0 +1,360 @@
+{
+  "meta": {
+    "title": "Custom Printed T-Shirts | Unique Designs & Premium Quality | UrbanInk",
+    "description": "Shop custom printed t-shirts with unique designs. Premium quality, eco-friendly materials, and fast shipping. Design your own or choose from our exclusive collection. Free shipping over $50!",
+    "keywords": [
+      "custom t-shirts",
+      "printed t-shirts",
+      "custom apparel",
+      "personalized clothing",
+      "graphic tees",
+      "custom design shirts",
+      "print on demand",
+      "eco-friendly t-shirts",
+      "custom printing",
+      "design your own shirt"
+    ],
+    "author": "UrbanInk Custom Apparel",
+    "robots": "index, follow",
+    "canonical": "https://www.urbanink.com/",
+    "language": "en-US"
+  },
+  
+  "openGraph": {
+    "type": "website",
+    "url": "https://www.urbanink.com/",
+    "title": "Custom Printed T-Shirts | Unique Designs & Premium Quality",
+    "description": "Shop custom printed t-shirts with unique designs. Premium quality, eco-friendly materials, and fast shipping.",
+    "image": "https://www.urbanink.com/images/og-image.jpg",
+    "siteName": "UrbanInk Custom Apparel",
+    "locale": "en_US"
+  },
+  
+  "twitter": {
+    "card": "summary_large_image",
+    "site": "@urbanink",
+    "creator": "@urbanink",
+    "title": "Custom Printed T-Shirts | Unique Designs",
+    "description": "Shop custom printed t-shirts with unique designs. Premium quality, eco-friendly materials.",
+    "image": "https://www.urbanink.com/images/twitter-card.jpg"
+  },
+  
+  "schema": {
+    "product": {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Custom Printed T-Shirts",
+      "description": "Premium quality custom printed t-shirts with unique designs. Eco-friendly materials and fast shipping.",
+      "brand": "UrbanInk",
+      "offers": {
+        "priceCurrency": "USD",
+        "lowPrice": "19.99",
+        "highPrice": "39.99",
+        "availability": "InStock"
+      },
+      "aggregateRating": {
+        "ratingValue": "4.8",
+        "reviewCount": "247"
+      }
+    },
+    "organization": {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "UrbanInk Custom Apparel",
+      "url": "https://www.urbanink.com",
+      "logo": "https://www.urbanink.com/logo.png",
+      "contactPoint": {
+        "telephone": "+1-555-874478",
+        "contactType": "Customer Service"
+      },
+      "sameAs": [
+        "https://www.facebook.com/urbanink",
+        "https://www.instagram.com/urbanink",
+        "https://twitter.com/urbanink"
+      ]
+    }
+  },
+  
+  "seo": {
+    "primaryKeywords": [
+      "custom t-shirts",
+      "printed t-shirts",
+      "custom apparel"
+    ],
+    "secondaryKeywords": [
+      "personalized clothing",
+      "graphic tees",
+      "custom design shirts",
+      "print on demand",
+      "eco-friendly t-shirts"
+    ],
+    "targetAudience": [
+      "Young adults (18-35)",
+      "Creative individuals",
+      "Small businesses",
+      "Event organizers",
+      "Sports teams",
+      "Artists and designers"
+    ],
+    "contentStrategy": {
+      "focusKeyword": "custom printed t-shirts",
+      "keywordDensity": "1.5%",
+      "readabilityScore": "Easy (Flesch Reading Ease: 60-70)",
+      "contentLength": "2000+ words",
+      "headingStructure": "H1 -> H2 -> H3",
+      "internalLinks": 5,
+      "externalLinks": 3,
+      "imageAltText": "Always include descriptive alt text",
+      "callToActions": "Multiple clear CTAs throughout page"
+    }
+  },
+  
+  "technicalSEO": {
+    "pageSpeed": {
+      "target": "<3 seconds",
+      "optimization": [
+        "Compress images (WebP format)",
+        "Minify CSS/JS",
+        "Enable browser caching",
+        "Use CDN for static assets",
+        "Lazy load images",
+        "Defer non-critical JavaScript"
+      ]
+    },
+    "mobile": {
+      "responsive": true,
+      "viewport": "width=device-width, initial-scale=1.0",
+      "touchTargets": ">48x48px",
+      "fontSizes": "Minimum 16px"
+    },
+    "security": {
+      "https": true,
+      "ssl": "Required for all pages"
+    },
+    "structured Data": {
+      "product": true,
+      "organization": true,
+      "breadcrumb": true,
+      "review": true
+    }
+  },
+  
+  "contentOptimization": {
+    "titleTag": {
+      "length": "50-60 characters",
+      "includeKeyword": true,
+      "includeBrand": true,
+      "current": "Custom Printed T-Shirts | Unique Designs & Premium Quality | UrbanInk"
+    },
+    "metaDescription": {
+      "length": "150-160 characters",
+      "includeKeyword": true,
+      "includeCTA": true,
+      "current": "Shop custom printed t-shirts with unique designs. Premium quality, eco-friendly materials, and fast shipping. Design your own or choose from our exclusive collection. Free shipping over $50!"
+    },
+    "h1": {
+      "count": 1,
+      "keyword": "custom t-shirt",
+      "current": "Design Your Dream Custom T-Shirt"
+    },
+    "h2Tags": [
+      "Featured Custom T-Shirt Designs",
+      "Create Your Own Custom Design",
+      "How It Works",
+      "What Our Customers Say",
+      "Get Exclusive Designs & Offers",
+      "Frequently Asked Questions"
+    ],
+    "imageOptimization": {
+      "format": "WebP or JPEG",
+      "compression": "70-80% quality",
+      "dimensions": "Appropriate to display size",
+      "lazyLoading": true,
+      "altText": "Descriptive, keyword-rich"
+    }
+  },
+  
+  "urlStructure": {
+    "homepage": "/",
+    "products": "/products",
+    "customDesign": "/custom-design",
+    "categories": "/category/[category-name]",
+    "productPages": "/product/[product-name]",
+    "blog": "/blog/[post-slug]",
+    "guidelines": [
+      "Use lowercase",
+      "Use hyphens, not underscores",
+      "Keep short and descriptive",
+      "Include target keyword",
+      "Avoid special characters"
+    ]
+  },
+  
+  "localSEO": {
+    "googleMyBusiness": {
+      "required": true,
+      "categories": [
+        "T-Shirt Printing Service",
+        "Custom Apparel Store",
+        "Print Shop"
+      ],
+      "hours": "Mon-Fri: 9AM-6PM EST",
+      "photos": "High-quality store/product photos",
+      "reviews": "Encourage and respond to reviews"
+    },
+    "citations": {
+      "nap": "Name, Address, Phone consistent across web",
+      "directories": [
+        "Yelp",
+        "Yellow Pages",
+        "Local business directories"
+      ]
+    }
+  },
+  
+  "linkBuilding": {
+    "internalLinking": {
+      "strategy": "Link related products and content",
+      "anchorText": "Descriptive and varied",
+      "frequency": "3-5 internal links per page"
+    },
+    "backlinks": {
+      "targetSources": [
+        "Fashion blogs",
+        "Design communities",
+        "Local business directories",
+        "Industry publications"
+      ],
+      "qualityOverQuantity": true,
+      "avoidSpam": true
+    }
+  },
+  
+  "contentMarketing": {
+    "blog": {
+      "frequency": "2-3 posts per week",
+      "topics": [
+        "T-shirt design tips",
+        "Custom printing guides",
+        "Fashion trends",
+        "Business branding ideas",
+        "Care instructions",
+        "Customer success stories"
+      ],
+      "seoOptimized": true,
+      "shareableContent": true
+    },
+    "socialMedia": {
+      "platforms": [
+        "Instagram (primary)",
+        "Facebook",
+        "Pinterest",
+        "Twitter"
+      ],
+      "strategy": "Share user-generated content, design inspiration, promotions"
+    }
+  },
+  
+  "analytics": {
+    "googleAnalytics": {
+      "trackingId": "GA-XXXXXXXXX",
+      "events": [
+        "Add to Cart",
+        "Newsletter Signup",
+        "Product View",
+        "Checkout Started",
+        "Purchase Completed"
+      ],
+      "goals": [
+        "Purchase conversion",
+        "Email signup",
+        "Design tool usage",
+        "Contact form submission"
+      ]
+    },
+    "googleSearchConsole": {
+      "sitemapSubmission": true,
+      "mobileUsabilityCheck": true,
+      "indexCoverage": "Monitor regularly",
+      "performanceTracking": "Track keywords and impressions"
+    }
+  },
+  
+  "competitorAnalysis": {
+    "competitors": [
+      "CustomInk",
+      "Printful",
+      "Teespring",
+      "Redbubble",
+      "Spreadshirt"
+    ],
+    "keywordGaps": "Use tools like SEMrush or Ahrefs",
+    "contentGaps": "Identify missing content opportunities",
+    "backlinkOpportunities": "Find competitor backlink sources"
+  },
+  
+  "seoTools": {
+    "keywordResearch": [
+      "Google Keyword Planner",
+      "Ubersuggest",
+      "SEMrush",
+      "Ahrefs"
+    ],
+    "technicalSEO": [
+      "Google PageSpeed Insights",
+      "Google Lighthouse",
+      "Screaming Frog",
+      "GTmetrix"
+    ],
+    "rankTracking": [
+      "Google Search Console",
+      "SEMrush Position Tracking",
+      "Ahrefs Rank Tracker"
+    ],
+    "contentOptimization": [
+      "Yoast SEO (WordPress)",
+      "Surfer SEO",
+      "Clearscope"
+    ]
+  },
+  
+  "monthlyChecklist": [
+    "Review Google Analytics data",
+    "Check Search Console for errors",
+    "Monitor keyword rankings",
+    "Analyze competitor performance",
+    "Update content with fresh information",
+    "Build quality backlinks",
+    "Optimize slow-loading pages",
+    "Fix broken links",
+    "Update meta descriptions",
+    "Add new blog content",
+    "Review and respond to reviews",
+    "Check mobile usability"
+  ],
+  
+  "kpis": {
+    "traffic": {
+      "organicTraffic": "Track monthly growth",
+      "bounceRate": "<40%",
+      "avgSessionDuration": ">2 minutes",
+      "pagesPerSession": ">3"
+    },
+    "rankings": {
+      "primaryKeywords": "Top 10 positions",
+      "brandedKeywords": "Position 1-3",
+      "longTailKeywords": "Top 20 positions"
+    },
+    "conversions": {
+      "organicConversionRate": ">3%",
+      "emailSignups": "10% growth monthly",
+      "revenue": "Track organic revenue"
+    },
+    "technical": {
+      "pagespeedScore": ">90",
+      "mobileScore": ">90",
+      "indexedPages": "Monitor weekly",
+      "crawlErrors": "0"
+    }
+  }
+}
