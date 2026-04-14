@@ -104,3 +104,7 @@ The execution output screenshot is included below:
 
 ## Conclusion
 This assignment demonstrates a practical and lightweight threat detection workflow using Python and regex. Even with simple logic, server log analysis can reveal high-risk behavior such as brute force login attempts and SQL injection probes in an e-commerce scenario.
+
+
+
+
